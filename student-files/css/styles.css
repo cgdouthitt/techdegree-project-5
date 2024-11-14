@@ -14,9 +14,9 @@ html, body {
 }
 
 body {
-    font-family: "Nunito", sans-serif;
+    font-family: "Garamond", sans-serif;
     text-align: center;
-    background: rgba(235, 235, 235, 0.9);
+    background: radial-gradient( green 0%, lightblue 100%);
 }
 
 header {
