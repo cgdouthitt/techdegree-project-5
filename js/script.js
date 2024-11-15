@@ -36,6 +36,7 @@ function createSearch() {
     //Function for adding both types of event listeners for search functionality
     function addSearchListener(element, event) {
         element.addEventListener(event, e => {
+            e.preventDefault();
             const searchValue = searchInput.value.toLowerCase();
             searchUserName(searchValue);
             createRandomUserGallery(filteredUsers);
